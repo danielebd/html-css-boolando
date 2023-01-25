@@ -26,6 +26,7 @@ header {
     left: 0;
     top: 0;
     right: 0;
+    z-index: 150;
 }
 .nav {
     color: white;
@@ -70,11 +71,90 @@ FINE HEADER
 ---------------*/
 
 
-
-
 /*---------------
 INIZIO MAIN
 ---------------- */
+main {
+    display: flex;
+    margin-top: 130px;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.container {
+    width: 1400px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+/* immage */
+.immbox {
+    position: relative;
+    display: flex;
+}
+.imm {
+    width: 440px;
+    display: block;
+
+}
+.immhover {
+    width: 440px;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+
+}
+.immbox:hover .immhover {
+    visibility: visible;
+}
+.heart2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 10px;
+    size: 30px;
+}
+.heart2:hover {
+    color: red;
+}
+.tag {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    color: white;
+}
+.sconto {
+    padding: 5px 10px;
+    background-color: red;
+    margin-right: 5px;
+}
+.sostenibile {
+    padding: 5px 10px;
+    background-color: rgb(15, 110, 19);
+}
+/* immage */
+/* description */
+.brand {
+    color: grey;
+}
+.model {
+
+}
+.price {
+    color: red;   
+}
+.xprice {
+    text-decoration: line-through;
+}
+/* description */
 
 /*---------------- 
 FINE MAIN 
