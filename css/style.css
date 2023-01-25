@@ -1,5 +1,88 @@
+/*--------------
+INIZIO COMMON
+----------------*/
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+/*-------------
+FINE COMMON
+---------------*/
+
+
+
+/*------------
+INIZIO HEADER 
+ -------------*/
+header {
+    background-color: #ff6900;
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    color: white;
+    display: flex;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+/* Header left*/
+.gender {
+    display: flex;
+    gap: 10px;
+    width: 20%;
+}
+
+/* Header left*/
+
+
+/* Header center*/
+.logo {
+    width: 130px;
+    flex-grow: 1;
+}
+/* Header center*/
+
+
+/* Header right*/
+.icon {
+    display: flex;
+    gap: 10px;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+/* Header right*/
+
+/*--------------
+FINE HEADER 
+---------------*/
+
+
+
+
+/*---------------
+INIZIO MAIN
+---------------- */
+
+/*---------------- 
+FINE MAIN 
+----------------*/
+
+
+
+
+/*--------------
+INIZIO FOOTER
+---------------- */
+
+/*--------------
+FINE FOOTER
+---------------- */
