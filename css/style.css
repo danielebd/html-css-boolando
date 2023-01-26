@@ -25,13 +25,15 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    right: 0;
-    z-index: 150;
+    /* right: 0; */
+    width: 100%;
+    z-index: 2;
+    box-shadow: 0 3px 2px -2px #1a1a1a;
 }
 .nav {
     color: white;
     display: flex;
-    width: 1400px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,25 +85,28 @@ main {
     right: 0;
 }
 .container-main {
-    width: 1400px;
+    width: 1200px;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-between;
+
     position: relative;
+}
+.megabox {
+    width: calc(100%/ 3 - 14px);
+    
 }
 /* immage */
 .immbox {
+    width: 100%;
     position: relative;
-    display: flex;
 }
 .imm {
-    width: 440px;
+    width: 100%;
     display: block;
-
 }
 .immhover {
-    width: 440px;
+    width: 100%;
     display: block;
     visibility: hidden;
     position: absolute;
@@ -123,9 +128,12 @@ main {
     font-size: 20px;
 }
 .heart2:hover {
+    cursor: pointer;
+}
+.heart2:hover:active {
     color: red;
 }
-.tag {
+    .tag {
     position: absolute;
     bottom: 30px;
     left: 0;
@@ -169,7 +177,7 @@ footer {
     justify-content: center;
 }
 .container-footer {
-    width: 1400px;
+    width: 1200px;
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
